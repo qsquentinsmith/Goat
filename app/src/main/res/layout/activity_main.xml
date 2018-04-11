@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/babygoat13" />
+
+    <TextView
+        android:id="@+id/heykid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:fontFamily="@font/poiretone"
+        android:text="Hey Kid..."
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/youarethe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heykid"
+        android:layout_marginLeft="16sp"
+        android:fontFamily="@font/poiretone"
+        android:text="You are the"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youarethe"
+        android:layout_marginLeft="16sp"
+        android:fontFamily="@font/poiretone"
+        android:text="G.O.A.T"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="130sp"
+        android:layout_marginLeft="16sp"
+        android:fontFamily="@font/poiretone"
+        android:text="From Quentin"
+        android:textSize="28sp" />
+
+
+</RelativeLayout>
